@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup</title>
+</head>
+<body>
+    <form>
+        <table  cellpadding="5" cellspacing="5">
+            <h2>Sign Up</h2>
+            <tr>
+                <td><label for="fname">Full Name</label></td>
+                <td colspan="2"><input type="text" id="fname" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="phn">Mobile Number</label></td>
+                <td><select name="country code">
+                    <option></option>
+                    <option value="india">+91</option>
+                    <option value="canada">+1</option>
+                    <option value="china">+86</option>
+                    <option value="italy">+39</option>
+                </select></td>
+                <td><input type="tel" id="phn" name="phn" >
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pinCode">Pin Code</label></td>
+                <td colspan="2"><input type="number" id="pinCode" name="pinCode"></td>
+            </tr>
+            <tr>
+                <td><label for="mail">Email</label></td>
+                <td colspan="2"><input type="email" id="mail" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="userId">User Id</label></td>
+                <td colspan="2"><input type="text" id="userId" name="userId"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label>
+                </td>
+                <td colspan="2"><input type="password" id="password" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td><input type="submit" value="Register"></td>
+                <td><input type="reset" value="Erase"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
